@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Upload Excel File</title>
+    <link rel="stylesheet" type="text/css" href="../static/excel.css">
+</head>
+<body>
+    <h1>Upload Excel File</h1>
+    <form action="/excel" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!-- scatter_plot.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Scatter Plot</title>
+</head>
+<body>
+    <h1>Scatter Plot</h1>
+    {% for scatter_plot in scatter_plots %}
+        <div>
+            <h2>Scatter Plot for {{ loop.index0 }}</h2>
+            {{ scatter_plot | safe }}
+        </div>
+    {% endfor %}
+</body>
+</html>

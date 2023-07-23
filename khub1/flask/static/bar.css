@@ -1,0 +1,29 @@
+/* bar.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#FFEA20;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.chart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color:#E2F6CA;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.chart-container h2 {
+    color: #007BFF;
+}
+
+/* You can add more styles to customize the appearance of the bar graphs and their containers */

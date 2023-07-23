@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Data Entry Form</title>
+    <link rel="stylesheet" type="text/css" href="../static/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DATA Visualization</h1>
+
+        <div class="data-entry-methods">
+            <h2>DATA ENTRY METHODS</h2>
+            <ul>
+                <li><a href="{{ url_for('form') }}">Form</a></li>
+                <li><a href="{{ url_for('excel_upload') }}">Excel</a></li>
+            </ul>
+        </div>
+
+        <!-- Add a link to view visualization options -->
+        <div class="visualization-options">
+            <h2>View Visualization Options</h2>
+            <ul>
+                <li><a href="{{ url_for('view_visualizations') }}">View Visualizations</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

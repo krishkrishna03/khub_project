@@ -1,0 +1,49 @@
+/* view.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d8ddef;
+    background-image: url('https://cdn.educba.com/academy/wp-content/uploads/2019/03/What-is-Data-Visualization.jpg');
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 700px;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #10c945;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #f0f0f0;
+  }
+  

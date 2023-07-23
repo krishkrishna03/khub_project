@@ -1,0 +1,31 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #db0cd8;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #007BFF;
+    margin-top: 20px;
+}
+
+div.chart-container {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #e48e14;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for the scatter plot itself (if needed) */
+

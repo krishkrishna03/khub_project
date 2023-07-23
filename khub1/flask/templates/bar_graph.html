@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bar Graphs</title>
+    <link rel="stylesheet" type="text/css" href="../static/bar.css">
+</head>
+<body>
+    <h1>Bar Graphs</h1>
+    {% for chart in bar_graphs %}
+    <div class="chart-container">
+        <!-- Each bar graph will be displayed dynamically -->
+        {{ chart | safe }}
+    </div>
+    {% endfor %}
+</body>
+</html>

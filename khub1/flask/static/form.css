@@ -1,0 +1,91 @@
+/* Reset some default styles for consistency */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW2KW-EoowjRJxevoZS2Rt2_g7LDzIlBdFeQ&usqp=CAU');
+    background-size: cover;
+ 
+    
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #4285f4; /* Google blue color */
+    color: #fff;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 700px;
+    
+  
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  form select, form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  form select {
+    
+
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" fill="%23333%"><path d="M1 0h10L6 6 1 0z"/></svg>');
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    padding-right: 30px; /* Reserve space for the dropdown arrow */
+  }
+  
+  form input[type="submit"] {
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #3367d6;
+  }
+  
+  form input[type="submit"]:active {
+    background-color: #2a56c9;
+  }
+  
+  /* Style the error state */
+  form select:invalid, form input:invalid {
+    border-color: #ff0000;
+  }
+  
+  form select:invalid option, form input:invalid {
+    color: #ff0000;
+  }
+  
+  form select:valid, form input:valid {
+    border-color: #ccc;
+  }
+  
+  /* Style the placeholder text */
+  form select option[value=""], form input::placeholder {
+    color: #999;
+  }
+  

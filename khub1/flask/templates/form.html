@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Data Entry Form</title>
+    <link rel="stylesheet" type="text/css" href="../static/form.css">
+</head>
+<body>
+    <h1>Data Entry Form</h1>
+    <form action="/form" method="post">
+        <label for="BTECH">BTECH:</label>
+        <select name="BTECH" required title="Select your BTECH status">
+            <option value="">Select BTECH status</option>
+            <option value="PASS">PASS</option>
+            <option value="FAIL">FAIL</option>
+        </select>
+        <br>
+    
+        </select>
+        <br>
+        <label for="BTECH_SPECIALIZATION">BTECH Specialization:</label>
+        <select name="BTECH_SPECIALIZATION" required title="Select your BTECH specialization">
+            <option value="">Select BTECH specialization</option>
+            <option value="CSE">Computer Science and Engineering (CSE)</option>
+            <option value="MEC">Mechanical Engineering (MEC)</option>
+            <option value="ECE">Electronics and Communication Engineering (ECE)</option>
+            <option value="EEE">Electrical and Electronics Engineering (EEE)</option>
+            <option value="CIVIL">Civil Engineering (CIVIL)</option>
+            <option value="AI">Artificial Intelligence (AI)</option>
+            <option value="ML">Machine Learning (ML)</option>
+        </select>
+        
+        <br>
+        <label for="YEAR_OF_GRADUATION">Year of Graduation (Degree Course):</label>
+        <select name="YEAR_OF_GRADUATION" required title="Select your year of graduation for the degree course">
+            <option value="">Select year of graduation</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <label for="IT_COMPANY">IT Company:</label>
+        <select name="IT_COMPANY" required title="Select your IT company name">
+            <option value="">Select IT company</option>
+            <option value="GOOGLE">Google</option>
+            <option value="TCS">Tata Consultancy Services (TCS)</option>
+            <option value="AMAZON">Amazon</option>
+            <option value="DELOITTE">Deloitte</option>
+            <option value="ORACLE">Oracle</option>
+            <option value="MICROSOFT">Microsoft</option>
+            <option value="SALESFORCE">Salesforce</option>
+            <!-- Add more IT company options as needed -->
+        </select>
+    
+        <!-- Add more input fields or dropdowns for additional columns -->
+    
+        <input type="submit" value="Submit">
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+/* index.css */
+
+/* Apply some basic styling to the body and container */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1-2h64FES-rZgqy_ItldbQ4NezsflT-7ARg&usqp=CAU'); /* Add the URL of the background image */
+    background-size: cover; /* Cover the entire background with the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the body to the full viewport height */
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 550px;
+    /* Add an overlay to the container to make the text more readable */
+}
+
+/* Style the headings */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Style the data entry methods and visualization options using Flexbox */
+.data-entry-methods,
+.visualization-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgba(28, 235, 235, 0.8); /* Add an overlay to the boxes */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Style the links */
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Set text color for the boxes */
+.data-entry-methods,
+.visualization-options {
+    color: #333;
+}
